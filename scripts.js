@@ -1,7 +1,7 @@
 import { books, authors, genres, BOOKS_PER_PAGE } from './data.js';
-import EventManager from './EventManager.js';
-import ThemeManager from './ThemeManager.js';
-import View from './View.js';
+import EventManager from './eventManager.js';
+import ThemeManager from './themeManager.js';
+import View from './view.js';
 
 const eventManager = new EventManager();
 const themeManager = new ThemeManager();
